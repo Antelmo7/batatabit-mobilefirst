@@ -259,3 +259,106 @@ main {
 .main-commission-table .commission-table--date {
   background-color: var(--soft-blue);
 }
+
+.main-product-detail {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  max-width: 900px;
+  height: auto;
+  padding: 20px 10px;
+  background-color: var(--black);
+}
+
+.main-product-detail .product-detail--batata-logo {
+  position: absolute;
+  bottom: calc(100% - 12.5px);
+  left: calc(50% - 22.5px);
+  width: 45px;
+  height: 25px;
+  background-image: url("./assets/img/batata-icon.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.product-detail--title {
+  margin: 0 auto;
+  margin-top: 48px;
+  margin-bottom: 24px;
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  text-align: center;
+}
+
+.product-detail--title h2 {
+  margin-bottom: 24px;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  font-weight: 700;
+  color: var(--just-white);
+}
+
+.product-detail--title p {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  font-weight: 500;
+  color: #808080;
+}
+
+.product-detail--card {
+  margin: 0 auto;
+  margin-bottom: 16px;
+  padding: 16px;
+  padding-bottom: 24px;
+  width: 90%;
+  min-width: 288px;
+  max-width: 400px;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .16);
+  background-color: var(--warm-black);
+} 
+
+.product--card-title {
+  margin-bottom: 8px;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  font-weight: 700;
+  text-align: left;
+  color: var(--just-white);
+}
+
+.product--card-body {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  font-weight: 500;
+  color: #808080;
+}
+
+.product-detail--card span {
+  margin-bottom: 8px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.product-detail--card .clock {
+  background-image: url("./assets/icons/clock.svg");
+}
+
+.product-detail--card .eye {
+  background-image: url("./assets/icons/eye.svg");
+}
+
+.product-detail--card .dollar {
+  background-image: url("./assets/icons/dollar-sign.svg");
+}
+
+.product-detail--card .check {
+  background-image: url("./assets/icons/check-circle.svg");
+}
