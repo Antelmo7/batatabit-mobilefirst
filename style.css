@@ -505,3 +505,31 @@ main {
   margin-left: 8px;
   background-image: url('./assets/icons/arrow-right.svg');
 }
+
+footer {
+  display: flex;
+  width: 100%;
+  min-width: 320px;
+  height: 150px;
+  background-color: var(--bitcoin-orange);
+}
+
+footer section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.footer-socials ul {
+  list-style-type: none;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  font-weight: 500;
+}
+
+.footer-socials ul a {
+  text-decoration: none;
+  color: var(--just-white);
+}
